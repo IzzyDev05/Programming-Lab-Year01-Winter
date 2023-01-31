@@ -36,12 +36,12 @@ MonoBehaviour:
     m_Value: 1
   geometry:
     m_OverrideState: 1
-    m_Value: 0.9
+    m_Value: 0.85
     min: 0
     max: 1
   geometryPushbackEnabled:
-    m_OverrideState: 1
-    m_Value: 1
+    m_OverrideState: 0
+    m_Value: 0
   geometryPushbackMinMax:
     m_OverrideState: 1
     m_Value: {x: 0, y: 1}
@@ -64,7 +64,7 @@ MonoBehaviour:
     max: 1
   affineTextureWarping:
     m_OverrideState: 1
-    m_Value: 0.15
+    m_Value: 0.3
     min: 0
     max: 1
   framebufferDither:
@@ -73,7 +73,7 @@ MonoBehaviour:
     min: 0
     max: 1
   ditherSize:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
     min: 1
     max: 8
@@ -218,17 +218,17 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: {fileID: 2800000, guid: 4a3e96c03e7d7c34a8fb8f59764f1945, type: 3}
   precisionAlphaDither:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
     min: 0
     max: 1
   distanceMin:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
     min: 0
   distanceMax:
     m_OverrideState: 1
-    m_Value: 25
+    m_Value: 12
     min: 0.00001
   fogFalloffCurve:
     m_OverrideState: 0
@@ -341,22 +341,22 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   weight:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.075
     min: 0
     max: 1
   vignette:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
     min: -1
     max: 1
   dither:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
     min: 0
     max: 1
   zoom:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
     min: -1
     max: 1
@@ -371,7 +371,7 @@ MonoBehaviour:
     min: -1
     max: 1
   applyToUIOverlay:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
 --- !u!114 &4983044336356302089
 MonoBehaviour:
@@ -403,13 +403,13 @@ MonoBehaviour:
     m_Value: 1
     min: 0
   dynamicLightsMaxCount:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 256
     min: 1
     max: 256
   dynamicLightsMaxPerObjectCount:
-    m_OverrideState: 0
-    m_Value: 4
+    m_OverrideState: 1
+    m_Value: 8
     min: 1
     max: 8
 --- !u!114 &5870027315798974526
@@ -510,23 +510,23 @@ MonoBehaviour:
   m_AdvancedMode: 0
   isEnabled:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   weight:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.15
     min: 0
     max: 1
   accuracy:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
     min: 0
     max: 1
   mode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   colorspace:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 3
 --- !u!114 &8984773556102868971
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -580,7 +580,7 @@ MonoBehaviour:
     max: 1
   noiseIntensity:
     m_OverrideState: 1
-    m_Value: 0.05
+    m_Value: 0.01
     min: 0
     max: 1
   noiseSaturation:
