@@ -40,11 +40,11 @@ MonoBehaviour:
     min: 0
     max: 1
   geometryPushbackEnabled:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   geometryPushbackMinMax:
     m_OverrideState: 1
-    m_Value: {x: 0, y: 1.7067327}
+    m_Value: {x: 0, y: 0.75}
     min: 0
     max: 10
   color:
@@ -64,7 +64,7 @@ MonoBehaviour:
     max: 1
   affineTextureWarping:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.3
     min: 0
     max: 1
   framebufferDither:

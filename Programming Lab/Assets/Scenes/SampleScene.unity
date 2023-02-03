@@ -12801,5 +12801,9 @@ PrefabInstance:
       propertyPath: m_StepOffset
       value: 0.7
       objectReference: {fileID: 0}
+    - target: {fileID: 6371935908499887455, guid: e1e7a5295f306bd45a3e3a23cd1dea33, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1e7a5295f306bd45a3e3a23cd1dea33, type: 3}
