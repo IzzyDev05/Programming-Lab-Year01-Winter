@@ -44,7 +44,7 @@ MonoBehaviour:
     m_Value: 1
   geometryPushbackMinMax:
     m_OverrideState: 1
-    m_Value: {x: 0, y: 0.75}
+    m_Value: {x: 0, y: 0.25}
     min: 0
     max: 10
   color:
