@@ -9,11 +9,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundMask;
 
     private CharacterController controller;
+    private AudioManager audioManager;
     private Vector3 velocity;
     private bool isGrounded;
 
     private void Start() {
         controller = GetComponent<CharacterController>();    
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     private void Update() {
@@ -31,5 +33,10 @@ public class PlayerMovement : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+
+        // Temporary
+        if (Input.GetKeyDown(KeyCode.Q)) {
+            audioManager.Play("G");
+        }
     }
 }
